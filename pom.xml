@@ -24,28 +24,21 @@
 				<version>1.3.6</version>
 				<configuration>
 					<configuration>
-						<targetModules>
-							<param>foo-module2</param>
-							<targetModule>foo-module2</targetModule>
-						</targetModules>
 						<skippedModules>
 							<param>foo-module1</param>
-							<param>org.foo:foo-module1</param>
-							<skippedModule>foo-module1</skippedModule>
-							<skippedModule>org.foo:foo-module1</skippedModule>
 						</skippedModules>
-						<excludedClasses>
-							<excludedClass>org.foo.Service1</excludedClass>
+						<!-- <excludedClasses>
+							<param>org.foo.Service1</param>
 						</excludedClasses>
 						<excludedTestClasses>
-							<excludedTestClass>org.foo.*IT</excludedTestClass>
+							<param>org.foo.*IT</param>
 						</excludedTestClasses>
 						<avoidCallsTo>
-							<avoidCallsTo>java.util.logging</avoidCallsTo>
-							<avoidCallsTo>org.apache.log4j</avoidCallsTo>
-							<avoidCallsTo>org.slf4j</avoidCallsTo>
-							<avoidCallsTo>org.apache.commons.logging</avoidCallsTo>
-						</avoidCallsTo>
+							<param>java.util.logging</param>
+							<param>org.apache.log4j</param>
+							<param>org.slf4j</param>
+							<param>org.apache.commons.logging</param>
+						</avoidCallsTo> -->
 					</configuration>
 				</configuration>
 			</plugin>
