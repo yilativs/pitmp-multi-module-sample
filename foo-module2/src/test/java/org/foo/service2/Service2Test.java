@@ -1,4 +1,4 @@
-package org.foo.service1;
+package org.foo.service2;
 
 import org.foo.service2.Service2;
 import org.junit.Assert;

@@ -27,18 +27,10 @@
 						<skippedModules>
 							<param>foo-module1</param>
 						</skippedModules>
-						<!-- <excludedClasses>
-							<param>org.foo.Service1</param>
-						</excludedClasses>
-						<excludedTestClasses>
-							<param>org.foo.*IT</param>
-						</excludedTestClasses>
-						<avoidCallsTo>
-							<param>java.util.logging</param>
-							<param>org.apache.log4j</param>
-							<param>org.slf4j</param>
-							<param>org.apache.commons.logging</param>
-						</avoidCallsTo> -->
+						<!-- <excludedClasses> <param>org.foo.Service1</param> </excludedClasses>
+							<excludedTestClasses> <param>org.foo.*IT</param> </excludedTestClasses> <avoidCallsTo>
+							<param>java.util.logging</param> <param>org.apache.log4j</param> <param>org.slf4j</param>
+							<param>org.apache.commons.logging</param> </avoidCallsTo> -->
 					</configuration>
 				</configuration>
 			</plugin>
